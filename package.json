@@ -2,9 +2,10 @@
   "name": "selector-imagenes",
   "version": "1.0.0",
   "description": "Selector de imágenes con carrusel adaptativo, fácil de usar en cualquier proyecto o sitio web.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "dependencies": {
     "jsdoc": "^3.6.10",
     "minami": "^1.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
