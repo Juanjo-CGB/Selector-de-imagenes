@@ -1,8 +1,8 @@
-# Temporizador
+# Selector imágenes
 
 Selector de imágenes con carrusel adaptativo, fácil de usar en cualquier proyecto o sitio web.
 
-## Construido con
+## Desarrollado con
 
 **Javascript:** Interactividad
 
