@@ -1,0 +1,17 @@
+{
+    "plugins": [],
+    "source": {
+        "include": ["assets"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules|.vscode|docs)"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "./docs",
+        "template": "node_modules/minami"
+    }
+}

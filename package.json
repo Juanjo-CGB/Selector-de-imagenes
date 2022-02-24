@@ -1,0 +1,24 @@
+{
+  "name": "selector-imagenes",
+  "version": "1.0.0",
+  "description": "Selector de imágenes con carrusel adaptativo, fácil de usar en cualquier proyecto o sitio web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanjo-CGB/Selector-de-imagenes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanjo-CGB/Selector-de-imagenes/issues"
+  },
+  "homepage": "https://github.com/Juanjo-CGB/Selector-de-imagenes#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.10",
+    "minami": "^1.2.3"
+  }
+}

@@ -1,5 +1,5 @@
 /**
- * @fileoverview Interactividad Selector de imágenes
+ * @fileoverview Selector de imágenes con carrusel adaptativo, fácil de usar en cualquier proyecto o sitio web.
  * @version 0.1
  * @author Juanjo Alonso Sánchez <jj.alonso@esla.com>
  * @copyright cgb@esla.com
