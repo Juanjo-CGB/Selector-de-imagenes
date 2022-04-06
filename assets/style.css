@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #0970a0;    
-    --background-primary-color: #0970a0; 
+    --primary-color: #3ab5a4;    
+    --background-primary-color: #222e33; 
     --background-secondary-color: #f6f6f6;   
     --border-color: #d6d6d6;
     --title-color: #0d0d0d;
@@ -37,6 +37,17 @@ header, footer{
     height: auto;
     transition: width .3s ease;
     width: max-content
+}
+.header-logo__svg {
+    height: 3rem;
+    width: auto;
+    transition: width .3s ease;
+}
+.header-logo__svg-primary {
+    fill:var(--primary-color);
+}
+.header-logo__svg-j {
+    fill:var(--color-white);
 }
 main{
     flex-grow: 1;
@@ -85,6 +96,10 @@ main{
     opacity:.5;
     transition: transform .5s ease
 }
-footer p{
-    color: var(--color-white)
+.footer {
+    color: var(--color-white);
+    font-weight: 500;
+}
+.footer__copy-jjasdev {
+    color: var(--primary-color);
 }

@@ -5,6 +5,15 @@
  * @copyright cgb@esla.com
  */
 /**
+  * Establece el año en el footer
+  * @returns {void}
+  */
+ function establecerYear(){ 
+    const today = new Date();
+    const nodoYear = document.querySelector(".footer__copy-year"); 
+    nodoYear.innerHTML = today.getFullYear();
+}
+/**
   * Crea el nodo de la imagen seleccionada
   * @param {Response} imageResponse Imagen seleccionada
   * @param {string} fileName Nombre de la imagen seleccionada
@@ -23,6 +32,8 @@
     //Pintamos la imagen
     contenedorImagenes.appendChild(div);
 }
+//Pinta el año
+establecerYear();
 const imageUpload = document.querySelector("#selector__input");
 const contenedorImagenes = document.querySelector(".selector__galeria");
 //Subir imagenes
